@@ -16,8 +16,8 @@ case ${DEPLOY_TYPE:-doris} in
   ;;
 "doris")
   echo "start doris."
-  ${START_DORIS_FE} &
-  ${START_DORIS_BE}
+  bash -xv ${START_DORIS_FE} &
+  bash -xv ${START_DORIS_BE}
   ;;
 esac
 
