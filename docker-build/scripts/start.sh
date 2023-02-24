@@ -19,5 +19,6 @@ case ${DEPLOY_TYPE:-doris} in
   ${START_DORIS_FE} &
   ${START_DORIS_BE}
   ;;
+esac
 
 tail -f /dev/null

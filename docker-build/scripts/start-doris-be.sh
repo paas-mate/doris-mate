@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/opt/doris/be/bin/start_be.sh --daemon
+bash -x /opt/doris/be/bin/start_be.sh --daemon
